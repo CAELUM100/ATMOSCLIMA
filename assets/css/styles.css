@@ -1,0 +1,235 @@
+
+body{
+    text-align: center;
+    font-size: 12px; line-height: 1em;
+    padding: 0px;
+    background-color: #073846;
+    margin-top: 151px;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background-color: #001727;
+    border-bottom:  2px solid #00a8af;
+    border-top: 1px solid #00a8af;
+    position: fixed;
+    z-index: 1000;
+    top: 1;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+.center {
+    width: 97%;
+    margin: 0% auto;
+}
+
+
+#logo {
+    width: 50%;
+    height: 140px;
+    font-size: 28px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+#logo img{
+    display: block;
+    float: left;
+    height: 110px;   
+}
+
+#atmos{
+    display: block;
+    color: #91E8DD;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-top: 44px;
+    margin-right: 300px;
+}
+
+#menu {
+    width: 80%;
+    float: right;
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+    
+}
+
+#menu ul{
+
+    line-height: 20px;
+    width: 60%;
+    float: right;
+    margin-top: -90px;
+}
+
+#menu ul li{
+    list-style: none;
+    transition: var(--trans,color .4s ease 0s);
+    display: inline-block;
+    padding: 0 10px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+#menu a {
+
+    text-decoration: none;
+    color: #006d77;
+}
+
+#menu a:hover {
+ 
+    color: #61dddd;
+}
+
+#carousExampleFade {
+position: absolute;
+display: block;
+width: 100px;
+height: 50%;
+
+}
+
+#carouselExampleFade img {
+   width: 80px;
+    height: 100%;
+}
+
+#centenido {
+    width: 100%;
+    min-height: 450px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80%;
+    
+}
+
+#contenido h1{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 87px;
+    margin-right: auto;
+    color:  #00abb2;
+    font-family: futura-lt-w01-light,sans-serif;
+}
+
+#contenido p {
+    font-size: 14px;
+    text-align: justify;
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: auto;
+    line-height: 2.1;
+    color:#ffffff;
+    font-family: futura-lt-w01-light,sans-serif;
+   
+}
+
+
+#contenido h3 {
+    font-size: 14px;
+    text-align: justify;
+    width: 40%;
+    margin-top: -220px;
+    margin-left: auto;
+    margin-right: 70px;
+    line-height: 2.1;
+    color:#ffffff;
+    font-family: futura-lt-w01-light,sans-serif;
+
+}
+
+#footer {
+    border-top: 2px solid #91E8DD;
+    text-align: center;
+    height: 40%;
+    width: 100%;
+    margin-top: 1200px;
+    font-size: 19px;
+    color: #006d77;
+    background-color: #021321;
+
+}
+
+
+#footer p {
+display: block;
+  margin-top: 6%; 
+  font-size: 12px;
+  font-family: raleway,sans-serif;
+  color: #259385;
+}
+.clear{
+    clear: both;
+    float: none;
+}
+
+#contenido2{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    background-color: #072736;
+}
+
+#contenido2 h1{
+    padding: 70px;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: wfont_162c20_dc5e069955f142eebbe36c1982da70bc,wf_dc5e069955f142eebbe36c198,orig_montserratthin;
+    color: rgb(253, 253, 253);
+}
+
+#contenido2 h2{
+    font-size: 14px;
+    text-align: justify;
+
+    width: 80%;
+    margin-top: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.1;
+    color:#ffffff;
+    font-family: futura-lt-w01-light,sans-serif; 
+}
+
+#foto {
+    background-color: transparent;
+}
+
+#dato {
+    padding: 70px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: wfont_162c20_dc5e069955f142eebbe36c1982da70bc,wf_dc5e069955f142eebbe36c198,orig_montserratthin;
+    color: rgb(253, 253, 253);
+}
+#add{
+    background-color: #072736;
+    border-bottom: ffffff;
+    color: #91E8DD;
+}
+
+#tablamu{
+    background-color: aquamarine;
+    border-color: black;
+    color: red;
+
+}
